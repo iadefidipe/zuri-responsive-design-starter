@@ -7,18 +7,6 @@
     font-family: 'Rubik', sans-serif;
 }
 
-.overlay{
-    display: block;
-    animation: fade-in 300ms ease-in-out forwards;
-}
-
-
-
-
-
-
-
-
 
 div.nav-bar {
     display: flex;
@@ -386,6 +374,16 @@ div.footer h6 {
 
     .btnHamburger>span:not(:last-child){
         margin-bottom: 5px;
+    }
+
+    .overlay{
+        display: block;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #88949B;
+        animation: fade-in 300ms ease-in-out forwards;
     }
 
     ul.nav-links {
