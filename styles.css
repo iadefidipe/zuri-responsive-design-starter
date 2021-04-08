@@ -380,12 +380,23 @@ div.footer h6 {
     .overlay{
         display: block;
         position: absolute;
-        top: 3rem;
+        top: 2.5rem;
         left: 0;
         right: 0;
         bottom: 15rem;
-        background: red;
+        background: #304353;
         /* animation: fade-in 300ms ease-in-out forwards; */
+    }
+
+    .links{
+        text-align: center;
+        margin: 100px 0;
+    }
+    .links>li:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .links>a{
+        font-size: 1.25rem;
     }
 
     ul.nav-links {
