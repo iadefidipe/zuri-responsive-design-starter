@@ -379,12 +379,13 @@ div.footer h6 {
 
     .overlay{
         display: block;
-        top: 0;
+        position: absolute;
+        top: 3rem;
         left: 0;
         right: 0;
-        bottom: 0;
-        background-color: #88949B;
-        animation: fade-in 300ms ease-in-out forwards;
+        bottom: 15rem;
+        background: red;
+        /* animation: fade-in 300ms ease-in-out forwards; */
     }
 
     ul.nav-links {
@@ -555,6 +556,10 @@ div.footer h6 {
         font-size: 1rem;
     }
 
+}
+
+.hide-display{
+    display:none;
 }
 
 
