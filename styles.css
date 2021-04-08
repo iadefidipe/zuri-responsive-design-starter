@@ -562,6 +562,17 @@ div.footer h6 {
     display:none;
 }
 
+.btnHamburger-animate > span:first-child{
+    transform: rotate(45deg);
+}
+.btnHamburger-animate > span:nth-child(2){
+    opacity: 0;
+}
+.btnHamburger-animate > span:last-child{
+    transform: rotate(-45deg);
+}
+
+
 
 
 
