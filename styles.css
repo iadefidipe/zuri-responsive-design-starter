@@ -30,6 +30,7 @@ ul li {
     margin: 0 2vw;
     list-style: none;
     font-size: 1.1rem;
+    
 }
 
 ul li a {
@@ -198,7 +199,6 @@ div.circle {
     border-radius: 50%;
     background: #bcc3c7;
     margin-top: 2rem;
-    
 }
 
 div.box1 h5 {
@@ -345,3 +345,194 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+
+
+
+/************** Media queries **********/
+@media (max-width:1200){
+    div.hero-background-pos {
+        left: 95%;
+        
+    }
+}
+@media (max-width:768px){
+
+    div.nav-bar {
+        padding: 1rem 4rem;
+    }
+
+    div.logo {
+        font-size: 1.2rem;
+    }
+
+    ul li {
+        margin: 0 1vw;
+        font-size: 0.875rem;
+    
+    }
+
+    div.hero-section {
+        padding: 8rem 5rem;
+    }
+
+    div.hero-content-heading h3 {
+        font-size: 1.75rem;
+    }
+
+    div.hero-content-heading p {
+        font-size: 0.875rem;  
+    }
+
+
+    div.hero-background {
+        padding: 5rem;
+    }
+
+    div.background {
+        
+        padding: 20px 30px;
+        height: auto;
+        position: relative;
+    }
+
+
+    div.background h4 {
+        padding: 1rem;
+        font-size: 0.875rem;    
+    }
+
+    div.background p {
+        padding-left: 2rem;
+        font-size: 0.75rem;
+    }
+
+    div.hero-background-pos {
+        left: 80%;
+        width: 90px;
+        height: 90px;
+    }
+
+    div.snapshot-team {
+        padding-top: 1.5rem;
+    }
+
+    div.snapshot-team h2 {
+        font-size: 1.2rem;
+    }
+
+    div.snapshot-team p {
+        font-size: 0.875rem;
+        letter-spacing: 2px;
+        padding-top: 0.8rem;
+    }
+
+    div.snapshot-box-content {
+        gap: 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    div.gallery-content h4 {
+        font-size: 1.2rem;
+    }
+
+    div.gallery-content p {
+        font-size: 0.875rem;
+        padding-top: 0.8rem;
+    }
+
+    div.footer-content h4 {
+        font-size: 1.2rem;
+    }
+
+    div.footer-content p {
+        font-size: 0.875rem;
+    }
+
+    input[type="text"] {
+        width: 50%;
+    }
+
+    input[type="email"] {
+        width: 50%;
+    }
+
+    textarea {
+        width: 100%; 
+    }
+
+@media (max-width:556px){
+
+    div.nav-bar {
+        padding: 1rem 1rem;
+    }
+
+    div.logo {
+        font-size: 1rem;
+    }
+
+    ul li {
+        margin: 0 0.5vw;
+        font-size: 0.75rem;
+    
+    }
+
+    ul li a {   
+        padding: 0.4vw;
+    }
+
+    div.hero-section {
+        padding: 5rem 3rem;
+    }
+
+    div.hero-content-heading h3 {
+        font-size: 1.5rem;
+    }
+
+    div.hero-background {
+        padding: 4rem;
+    }
+
+    div.hero-background-pos {
+        left: 80%;
+        width: 70px;
+        height: 70px;
+    }
+
+    div.snapshot-team {
+        padding-top: 1rem;
+    }
+
+    div.snapshot-team h2 {
+        font-size: 1rem;
+    }
+
+    div.gallery-content h4 {
+        font-size: 1.1rem;
+    }
+
+    div.footer-content h4 {
+        font-size: 1rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
